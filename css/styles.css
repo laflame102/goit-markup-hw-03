@@ -24,6 +24,41 @@ color: var(--text-color);
 font-size: 14px ;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+        max-width: 100%;
+        height: auto;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .link {
     text-decoration: none;
 }
@@ -53,6 +88,11 @@ font-size: 14px ;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    
 }
 
 .logo {
@@ -65,6 +105,17 @@ font-size: 14px ;
 
 
 /* page navigation */
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.page-navigation {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
 .page-link:hover, 
 .page-link:focus {
  color: var(--color-links);
@@ -77,7 +128,8 @@ font-size: 14px ;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--black-color);
-
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .current {
@@ -85,6 +137,13 @@ font-size: 14px ;
 }
 
 /* address */
+.header-contacts {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 50px;
+}
+
 .address-header:hover,
 .address-header:focus {
  color: var(--color-links);
@@ -131,6 +190,7 @@ font-size: 14px ;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+
 .hero-button {
         font-weight: 700;
         font-family: inherit;
@@ -141,6 +201,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: var(--white-color);
     cursor: pointer;
 }
+
 
 /* our benefits */
 .benefits-title {
